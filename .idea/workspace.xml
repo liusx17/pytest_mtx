@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ac78e4c-6fe9-4970-883b-c2efee0f571c" name="Default Changelist" comment="初始化操作">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/session商城登录、下订单、支付重定向脚本.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/apiLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/apiOrder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/apiPay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/login_data.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/mtx.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/mtx.log.2020-11-30_10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/mtx.log.2020-11-30_14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger/mtx.log.2020-11-30_16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/009db279-bb3e-470e-bc8b-2843c5f89534-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/014e5b7f-fd2e-4869-ac08-aa1457f5e359-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/0bd8af7b-d5ba-43e3-a8b2-a9460f8f7a47-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/143ce553-6056-400b-ae68-e5680a825d6f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/35de233b-9708-49cd-9fc5-5130cf3780d8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/3b8687bb-3eed-42c7-95d7-e822ccd328fe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/4924a9fb-da18-44fa-8025-005cd16c46fa-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/4cb83bb9-2485-4180-91b2-aad971671c4b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/4e867e79-a07a-4b49-97d7-8f29b5106aac-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/506590e0-372c-43c7-b279-ab920857a759-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/5163b12a-7231-4ce8-a101-9c8eb8af7287-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/69acb9f1-cade-44d9-bd9a-2e5b82694388-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/6f411b3f-46c7-4e5e-bf5d-ec16b0431eea-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/76be1818-80d8-44b2-b0a1-259bce91933f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/77a9a48e-9e88-423d-a608-679f9e332119-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/7a2cdaa6-8950-4332-a87b-e8f43ca2b4c4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/7eb296eb-b846-4711-a13a-e4427a037310-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/833acb40-20c5-4f64-81cd-8b74132ddcb8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/98fd16bc-a3df-45db-84bc-a9312aa6dfb9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/9a4c5b12-5e13-46f9-bceb-6ab38b91e936-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/a4ccab9a-ade9-4ec7-a673-279af056f114-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/ae636aa2-a37d-4105-a28e-af0f15fc84bc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/b6c87857-7d62-4798-bbac-60d09ec61308-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/c4033824-d072-4e42-bd42-18b68904e03a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/e2e3480c-8182-4b9f-a3dd-736ca0dc7c00-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/f142df01-91c1-4b48-b351-5dcf0791a0a8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/ff12c2ce-4f75-495e-9064-4fcbbabcac48-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/mtx/ffd8005c-dedf-4638-95c3-de6013325b7c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/attachments/14ee5954167dbd3d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/attachments/1dcfd696dedcee2d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/attachments/788423699bed8d41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/attachments/8007cfea04091214.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/attachments/b823c100257544f8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/attachments/d18a1d9d2a7a1de5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/test-cases/133ce5b4aeacbc7e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/test-cases/24d9eab3c95689cf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/test-cases/318fb6d27eb127df.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/test-cases/9d4f1d86fbe58446.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/test-cases/df0e7af3de77c0c6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/test-cases/eebfa3641aee0e52.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/plugins/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/plugins/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/plugins/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/plugins/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/test/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/test_mtx_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/test_mtx_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/test_mtx_pay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/readData.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1imYIMkxOAfeW6cThwrUeIT8Lmy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="EditorConfig" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyData\liusx17\PycharmProjects\session商城登录、下订单、支付重定向脚本\api" />
+      <recent name="D:\MyData\liusx17\PycharmProjects\untitled5\tools" />
+      <recent name="D:\MyData\liusx17\PycharmProjects\untitled5\data" />
+      <recent name="D:\MyData\liusx17\PycharmProjects\untitled5" />
+      <recent name="D:\MyData\liusx17\PycharmProjects\untitled5\api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyData\liusx17\PycharmProjects\untitled5\.pytest_cache" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.readData1">
+    <configuration name="apiCookie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/apiCookie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_cookie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/api_cookie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/readData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readData1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/readData1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_mtx_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_mtx_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.readData1" />
+        <item itemvalue="Python.readData" />
+        <item itemvalue="Python.test_mtx_login" />
+        <item itemvalue="Python.api_cookie" />
+        <item itemvalue="Python.apiCookie" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ac78e4c-6fe9-4970-883b-c2efee0f571c" name="Default Changelist" comment="" />
+      <created>1602514153120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602514153120</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化操作" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="666" y="205" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606654533195">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="666" y="205" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1606654533195" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606659634903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606659634903" />
+    <state x="379" y="0" key="#readData1" timestamp="1608303304958">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" key="#readData1/0.0.1366.728@0.0.1366.728" timestamp="1608303304958" />
+    <state x="379" y="0" key="#test" timestamp="1603439655140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" key="#test/0.0.1366.728@0.0.1366.728" timestamp="1603439655140" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608302046939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608302046939" />
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1606731138509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606731138509" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1606731138509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606731138509" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1606731138509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606731138509" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1606731138509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606731138509" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1606012167978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606012167978" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1606012167978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606012167978" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1606012167977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606012167977" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1606012167978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606012167978" />
+    <state x="365" y="65" key="RollbackChangesDialog" timestamp="1608303074363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="365" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608303074363" />
+    <state x="15" y="1" key="SettingsEditor" timestamp="1608302065381">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="15" y="1" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608302065381" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608303504009">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608303504009" />
+    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608303210960">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1608303210960" />
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608303473661">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608303473661" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606723746352">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606723746352" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/lesson2_2/dict_study.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/setting1.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
